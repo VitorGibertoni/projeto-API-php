@@ -56,6 +56,8 @@ git clone https://github.com/VitorGibertoni/projeto-API-php.git
 ## 🗂️ Estrutura
 
 ```
+/print_postaman         ← Contem os prints da requisição da API no Postman
+
 /projeto_php            ← Pasta principal
 │
 ├── index.php           ← Página com o formulário de busca
