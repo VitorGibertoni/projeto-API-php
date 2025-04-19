@@ -84,8 +84,6 @@ git clone https://github.com/VitorGibertoni/projeto-API-php.git
 ## 🔐 Sobre a API
 
 - Este projeto utiliza a [OpenWeather API](https://openweathermap.org/api).
-- Você deve obter uma chave gratuita no site e colocá-la nos arquivos:
-  - `api/openweather.php`
 
 ---
 
