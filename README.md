@@ -36,15 +36,19 @@ git clone https://github.com/VitorGibertoni/projeto-API-php.git
 2. **Inicie o Apache**  
    Abra o painel de controle do XAMPP e clique em **Start** no módulo **Apache**.
 
-3. **Coloque o projeto na pasta certa**  
-   Copie a pasta *"projeto_php"* para dentro do diretório `htdocs` do XAMPP:
+3. **Abra a pasta "Projeto-API-php**
+   Dentro dessa pasta, terá duas pastas (print_postman e projeto_php)
+   é a pasta projeto_php que queremos
+
+4. **Coloque o projeto na pasta certa**  
+   Copie a pasta **"projeto_php"** para dentro do diretório `htdocs` do XAMPP:
    
    Exemplo:
    ```
    C:\xampp\htdocs\projeto_php
    ```
 
-4. **Acesse via navegador**  
+5. **Acesse via navegador**  
    Abra o navegador e acesse:
    ```
    http://localhost/projeto_php
