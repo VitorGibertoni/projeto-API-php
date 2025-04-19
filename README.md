@@ -27,7 +27,6 @@ git clone https://github.com/VitorGibertoni/projeto-API-php.git
 2. Clique em **Code > Download ZIP**  
 3. Extraia o ZIP no computador
 
-
 ---
 ## ⚙️ Como executar localmente com XAMPP
 
@@ -38,7 +37,7 @@ git clone https://github.com/VitorGibertoni/projeto-API-php.git
    Abra o painel de controle do XAMPP e clique em **Start** no módulo **Apache**.
 
 3. **Coloque o projeto na pasta certa**  
-   Copie a pasta "projeto_php" para dentro do diretório `htdocs` do XAMPP:
+   Copie a pasta *"projeto_php"* para dentro do diretório `htdocs` do XAMPP:
    
    Exemplo:
    ```
