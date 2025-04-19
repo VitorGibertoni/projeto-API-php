@@ -1,46 +1,140 @@
-
+/* Corpo da página */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
+  font-family: Arial, sans-serif; /* Define a fonte do corpo da página */
+  margin: 0; /* Remove as margens padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+  background: #121212; /* Cor de fundo escura */
+  color: #e0e0e0; /* Cor do texto em cinza claro */
 }
 
+/* Cabeçalho */
 header {
-  background: #0077cc;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+  background: #20344d; /* Cor de fundo do cabeçalho */
+  color: white; /* Cor do texto do cabeçalho */
+  padding: 1.5rem; /* Preenchimento interno do cabeçalho */
+  text-align: center; /* Alinha o texto no centro */
 }
 
+/* Navegação */
 nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
+  color: #ffcc00; /* Cor do texto dos links */
+  margin: 0 15px; /* Margem entre os links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-weight: bold; /* Deixa o texto dos links em negrito */
 }
 
+/* Estilo do conteúdo principal */
 main {
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 40px 20px; /* Preenchimento interno do conteúdo principal */
+  max-width: 525px; /* Largura máxima */
+  margin: auto; /* Centraliza o conteúdo */
+  background: #121212; /* Cor de fundo escura */
 }
 
+/* Estilo dos inputs e botões do formulário */
 form input, form button {
-  padding: 10px;
-  margin: 10px 5px;
-  font-size: 1rem;
+  padding: 12px; /* Preenchimento interno */
+  margin: 12px 8px; /* Margem entre os elementos */
+  font-size: 1rem; /* Tamanho da fonte */
+  background-color: #2a2a2a; /* Cor de fundo escura */
+  border: 1px solid #444; /* Cor da borda */
+  color: #ffffff; /* Cor do texto */
+  border-radius: 8px; /* Bordas arredondadas */
 }
 
+/* Estilo do botão do formulário */
+form button {
+  background-color: #004374; /* Cor de fundo do botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Altera o cursor para pointer ao passar sobre o botão */
+  transition: background 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+/* Efeito de hover no botão */
+form button:hover {
+  background-color: #013052; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Definindo a altura da página */
+html, body {
+  height: 100%; /* Define a altura total da página */
+}
+
+/* Definindo o layout da página como flex */
+body {
+  display: flex;
+  flex-direction: column; /* Organiza os itens de forma vertical */
+}
+
+/* Faz o conteúdo principal ocupar o espaço disponível */
+main {
+  flex: 1;
+}
+
+/* Rodapé da página */
 footer {
-  background: #0077cc;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  background: #20344d; /* Cor de fundo do rodapé */
+  color: white; /* Cor do texto do rodapé */
+  text-align: center; /* Alinha o texto no centro */
+  padding: 1rem; /* Preenchimento interno */
+  margin-top: auto; /* Faz com que o rodapé fique na parte inferior da página */
+}
+
+/* Estilo do container que exibe o clima */
+.clima-container {
+  background-color: #1e1e1e; /* Cor de fundo do container */
+  border-radius: 20px; /* Bordas arredondadas */
+  padding: 32px; /* Preenchimento interno */
+  margin: 50px auto; /* Margem centralizada */
+  max-width: 480px; /* Largura máxima */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7); /* Sombra do container */
+  text-align: center; /* Alinha o conteúdo no centro */
+}
+
+/* Estilo do ícone do clima */
+.clima-icon {
+  width: 100px; /* Largura do ícone */
+  height: 100px; /* Altura do ícone */
+  margin-bottom: 20px; /* Margem inferior */
+  animation: float 3s ease-in-out infinite; /* Animação para o ícone flutuar */
+}
+
+/* Título do clima */
+.clima-container h2 {
+  color: #ffcc00; /* Cor do título */
+  font-size: 28px; /* Tamanho da fonte */
+  margin-bottom: 16px; /* Margem inferior */
+}
+
+/* Estilo dos parágrafos dentro do clima-container */
+.clima-container p {
+  font-size: 18px; /* Tamanho da fonte */
+  margin: 10px 0; /* Margem superior e inferior */
+  color: #cccccc; /* Cor do texto */
+}
+
+/* Animação de flutuação do ícone */
+@keyframes float {
+  0%, 100% { transform: translateY(0); } /* A posição inicial e final do ícone */
+  50% { transform: translateY(-10px); } /* O movimento do ícone para cima */
+}
+
+/* Estilos para dispositivos móveis com tela pequena */
+@media (max-width: 600px) {
+  .clima-container {
+    padding: 24px; /* Reduz o preenchimento */
+  }
+
+  .clima-icon {
+    width: 80px; /* Reduz o tamanho do ícone */
+    height: 80px; /* Reduz o tamanho do ícone */
+  }
+
+  .clima-container h2 {
+    font-size: 24px; /* Reduz o tamanho da fonte do título */
+  }
+
+  .clima-container p {
+    font-size: 16px; /* Reduz o tamanho da fonte dos parágrafos */
+  }
 }
