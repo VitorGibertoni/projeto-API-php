@@ -7,7 +7,7 @@ Este projeto em PHP permite consultar o clima atual de uma cidade utilizando a A
 
 ## 👩‍🎓 Alunos desenvolvedores do projeto
 
-- Ana Júlia 
+- Ana Julia Amidami Rosa
 - Eduardo Hilário Tebatini
 - Vitor Gibertoni Lumpano
 
