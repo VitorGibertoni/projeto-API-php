@@ -5,6 +5,13 @@ Este projeto em PHP permite consultar o clima atual de uma cidade utilizando a A
 
 ---
 
+## 👩‍🎓 Alunos desenvolvedores do projeto
+
+- Ana Júlia 
+- Eduardo Hilário Tebatini
+- Vitor Gibertoni Lumpano
+
+---
 ## 🌎 Requisitos
 
 - PHP (recomendado: 7.4 ou superior)
@@ -37,8 +44,7 @@ git clone https://github.com/VitorGibertoni/projeto-API-php.git
    Abra o painel de controle do XAMPP e clique em **Start** no módulo **Apache**.
 
 3. **Abra a pasta "Projeto-API-php**
-   Dentro dessa pasta, terá duas pastas (print_postman e projeto_php)
-   é a pasta projeto_php que queremos
+   Dentro dessa pasta, terá duas pastas (print_postman e projeto_php), é a pasta projeto_php que queremos
 
 4. **Coloque o projeto na pasta certa**  
    Copie a pasta **"projeto_php"** para dentro do diretório `htdocs` do XAMPP:
